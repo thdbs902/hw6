@@ -438,3 +438,10 @@ it is public and empty. push now.
 ```
 
 *What was lacking after the first:* GitHub still couldn't find the repo, so I gave the vibe coder the exact repo address and confirmed it is public and empty.
+
+**Follow-up prompt**
+```
+I edited my GitHub token: hw6 is added under Repository access with Contents set to Read and write. Please push now.
+```
+
+*What was lacking after the first:* My GitHub token wasn't allowed to write to the new hw6 repo, so I added hw6 to the token's repository access and asked the vibe coder to push.
