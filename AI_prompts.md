@@ -416,3 +416,10 @@ hw6/
 make sure my .env is not uploaded and no file is missing.
 give me the repo URL.
 ```
+
+**Follow-up prompt**
+```
+I created the empty public repo thdbs902/hw6 on GitHub. Please push.
+```
+
+*What was lacking after the first:* My saved GitHub login could push but wasn't allowed to create a new repository, so I created the empty public repo myself and asked the vibe coder to push.
