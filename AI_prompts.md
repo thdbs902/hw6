@@ -423,3 +423,10 @@ I created the empty public repo thdbs902/hw6 on GitHub. Please push.
 ```
 
 *What was lacking after the first:* My saved GitHub login could push but wasn't allowed to create a new repository, so I created the empty public repo myself and asked the vibe coder to push.
+
+**Follow-up prompt**
+```
+I checked: the repo thdbs902/hw6 now exists and is Public. Please push again.
+```
+
+*What was lacking after the first:* The first push failed because GitHub couldn't find the repo yet, so I made sure it existed and was Public under my account and asked the vibe coder to try again.
