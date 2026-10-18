@@ -47,14 +47,14 @@ NO_CACHE_SETTINGS = SETTINGS  # without cache: a unique nonce starts every call 
 LIMITS = UsageLimits(request_limit=6, tool_calls_limit=6)
 
 load_dotenv(HERE / ".env")
-load_dotenv(HERE.parent / ".env")  # YALE/.env holds PORTKEY_API_KEY
+load_dotenv(HERE.parent / ".env")  # also accept a .env one folder up (my course folder keeps it there)
 
 
 def build_model() -> OpenAIResponsesModel:
     """gpt-6-luna through Portkey's OpenAI-compatible gateway."""
     key = os.getenv("PORTKEY_API_KEY")
     if not key:
-        raise RuntimeError("PORTKEY_API_KEY is not set (checked HW6/.env and YALE/.env)")
+        raise RuntimeError("PORTKEY_API_KEY is not set. Copy .env.example to .env and put your key in it.")
     client = AsyncOpenAI(
         api_key=key,
         base_url=PORTKEY_BASE_URL,
