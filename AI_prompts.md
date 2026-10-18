@@ -430,3 +430,11 @@ I checked: the repo thdbs902/hw6 now exists and is Public. Please push again.
 ```
 
 *What was lacking after the first:* The first push failed because GitHub couldn't find the repo yet, so I made sure it existed and was Public under my account and asked the vibe coder to try again.
+
+**Follow-up prompt**
+```
+I made the repo: https://github.com/thdbs902/hw6
+it is public and empty. push now.
+```
+
+*What was lacking after the first:* GitHub still couldn't find the repo, so I gave the vibe coder the exact repo address and confirmed it is public and empty.
